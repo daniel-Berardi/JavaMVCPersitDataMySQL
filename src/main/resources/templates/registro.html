@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div>
+<form action="/registrar" method="post">
+
+<div>
+	<p> Nombre</p>
+	<input type="text" name="nombre" placeholder="INgrese nombre aqui" class="form-control">
+
+</div>
+
+<div>
+	<p> Apellido</p>
+	<input type="text" name="apellido" placeholder="INgrese apellido aqui" class="form-control">
+
+</div>
+<div>
+	<p> email</p>
+	<input type="email" name="email" placeholder="INgrese email aqui" class="form-control">
+
+</div>
+
+<div>
+	<p> clave</p>
+	<input type="password" name="clave" placeholder="INgrese clave aqui" class="form-control">
+
+</div>
+
+<button type="submit">REGISTRAR </button>
+<br>
+
+
+
+</form>
+
+<a th:href="@{/index}">Volver al inicio</a>
+
+
+
+</div>
+
+
+
+</body>
+</html>
